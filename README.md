@@ -20,6 +20,7 @@ docker run --name GotifyOnStart -d \
     --env 'GOTIFY_TITLE=Startup Complete' \
     --env 'GOTIFY_MESSAGE=Server is now Online!' \
     --env 'GOTIFY_PRIORITY=5' \
+    --net='host' \
     ich777/gotify-on-start
 ```
 
